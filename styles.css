@@ -98,7 +98,7 @@ flex-direction: row;
 }*/
 
 .posting-col{
-  /*flex-basis: 50%;*/
+  flex-basis: 50%;
   /*display: inline-block;*/
   /*background-color: #79C1E7;*/
   /*color: white;*/
