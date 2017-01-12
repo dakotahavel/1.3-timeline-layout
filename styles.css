@@ -1,0 +1,139 @@
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  /*background-color: blue;*/
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+  margin-top: 4%;
+}
+
+img{
+  max-width: 100%;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  /*display: inline-block;*/
+}
+
+li{
+  display: inline-block;
+}
+
+.each-post{
+display: flex;
+flex-direction: ltr;
+}
+
+.date-time-col{
+  display: inline-block;
+  /*background-color: green;*/
+  flex-basis: 75%;
+}
+
+.date{
+  /*background-color: orange;*/
+  color: #CDD2DA;
+  display: block;
+  vertical-align: top;
+  text-align: right;
+  font-size: .75em;
+}
+
+.time{
+  display: block;
+  /*background-color: purple;*/
+  color: #79C1E7;
+  text-align: right;
+  font-size: 2.2em;
+  padding: .1em;
+}
+
+.graphic-col{
+  display: inline;
+  /*background-color: blue;*/
+  flex-basis: 15%;
+}
+
+.graphic{
+  display: inline-block;
+  color: white;
+  /*background-color: black;*/
+}
+
+/*.graphic::before{
+  content:'(-)';
+  color:yellow;
+  background-color: green;
+  /*background-image: repeating-linear-gradient(red);*/
+}*/
+
+.posting-col{
+  /*display: block;*/
+  /*background-color: #79C1E7;*/
+  /*color: white;*/
+  margin: 2%;
+  margin-top: 0;
+  border-radius: .5em;
+}
+
+.posting-outline{
+  flex-basis: 180%;
+  display: block;
+  background-color: #79C1E7;
+  color: white;
+  margin: 0 10em 1em 1em;
+  border-radius: .2em;
+}
+
+.posting-title{
+  /*border-radius: .5em;*/
+  font-size: 1.5em;
+  /*font-weight: bold;*/
+  /*background-color: #79C1E7;*/
+  color: white;
+  /*background-color: blue;*/
+  border-bottom: 1px grey solid;
+  padding: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin: 3%;
+  margin-top: 0;
+}
+
+.posting-title::before{
+  content:'';
+  display: block;;
+  width: 0;
+  height: 0;
+  border-width: 0.6em;
+  border-style: solid;
+  border-color: transparent;
+  border-right-color: #79C1E7;
+  position: relative;
+  /*top: 8%;*/
+  right: 2.6em;
+  /*background-color: green;*/
+}
+
+
+.posting-body{
+  /*display: inline-block;*/
+  background-color: #79C1E7;
+  color: white;
+  padding: 3%;
+  border-radius: .2em;
+  /*background-color: pink;*/
+}
+
+
+
+
+
+
+/*=================*/
